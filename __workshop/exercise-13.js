@@ -22,7 +22,7 @@ function exercise13() {
   // -----------------------------------------------------------------
   let first = 0;
   let second = 1;
-  let fibonacci = 1;
+  let fibonacci;
   for (let add = 2; add < 50; add++) {
     fibonacci = first + second;
     first = second;
