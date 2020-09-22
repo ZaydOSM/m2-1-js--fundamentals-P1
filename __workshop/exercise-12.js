@@ -18,13 +18,13 @@ function exercise12() {
   // Write code between the lines (below)
   // -----------------------------------------------------------------
   for (let prime = 2; prime < 201; prime++) {
-    let notPrime = false;
+    let isPrime = true;
     for (let i = 2; i < prime; i++) {
       if (prime % i === 0) {
-        notPrime = true;
+        isPrime = false;
       }
     }
-    if (notPrime === false) {
+    if (isPrime === true) {
       console.log(prime);
     }
   }
